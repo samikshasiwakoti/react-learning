@@ -1,16 +1,9 @@
 
 
-import Welcome from './Welcome';
+import {Welcome} from './Welcome';
+import Button from './Button';
 import './App.css'
 
-
-
-
-
-function Button ()
-{
-  return <button>submit</button>;
-}
  function App()
  {
   return (
