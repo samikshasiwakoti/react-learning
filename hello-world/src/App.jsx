@@ -2,6 +2,7 @@
 
 import {Welcome} from './Welcome';
 import Button from './Button';
+import { Hello } from './Hello';
 import './App.css'
 
  function App()
@@ -9,9 +10,7 @@ import './App.css'
   return (
     
            <div>
-            <h1>
-              Just sarting react
-            </h1>
+           <Hello />
             <Welcome />
             <Button />
            </div>
@@ -21,5 +20,7 @@ import './App.css'
    
   );
 }
-
+/*<h1>
+              //Just sarting react this was added in place of hello befoe
+            </h1>*/ 
 export default App
