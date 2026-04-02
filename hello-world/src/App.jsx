@@ -3,6 +3,11 @@
 import {Welcome} from './Welcome';
 import Button from './Button';
 import { Hello } from './Hello';
+import { UserProfile } from './UserProfile';
+import { ContactForm } from './ContactForm';
+import { StyledForm } from './StyledForm';
+import { CandidateProfile } from './CandidateProfile';
+import { Product } from './Product';
 import './App.css'
 
  function App()
@@ -10,6 +15,22 @@ import './App.css'
   return (
     
            <div>
+            <Product 
+            title ="Gaming laptop"
+             price= {1299.99} 
+             inStock={true} 
+             categories={["Electronic","Gaming","Laptops"]}
+             />
+
+
+            <Welcome  name ="sami" alias="superwomen"/>
+            <Welcome  name ="Asmi" alias="wonder woman"/>
+            <Welcome  name ="Bruce" alias="Batman"/>
+
+            <CandidateProfile />
+            <StyledForm />
+            <ContactForm />
+            <UserProfile/>
            <Hello />
             <Welcome />
             <Button />
