@@ -9,7 +9,7 @@ import './App.css'
 
 function Button ()
 {
-  return <button>Click me</button>;
+  return <button>submit</button>;
 }
  function App()
  {
